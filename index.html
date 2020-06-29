@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>CountDown</title>
+</head>
+<body>
+
+    <nav>
+            <a href="#nav-20s" id="20s">20 Secs</a>
+            <a href="#nav-etirement" id="nav-etirement-tab">Etirement 5</a>
+            <a href="#nav-chayi" id="nav-chayi-tab" >Chayi 15</a>
+            <a href="#nav-dambou" id="nav-dambou-tab" >Dambou 20</a>
+            <a href="#nav-dejeuner" id="nav-dejeuner-tab">Dejeuner 1h</a>
+    </nav>
+
+        <section>
+            <input type="number" name="time" id="time" placeholder="Entez l'heure">
+            <div class="btndiv">
+                <button class="btn" id="submit" type="submit" onclick="toSubmit()">Envoyer</button>
+            </div>
+            <div id="clockdiv" class="clock"></div>
+            <div id="vingSecond" class="clock"></div>
+            <div id="etirement" class="clock"></div>
+            <div id="chayi" class="clock"></div>
+            <div id="dambou" class="clock"></div>
+            <div id="dejeuner" class="clock"></div>
+
+
+            <div id="comeBack"></div>
+        </section>
+
+
+
+
+    <script src="js/app.js"></script>
+</body>
+</html>
